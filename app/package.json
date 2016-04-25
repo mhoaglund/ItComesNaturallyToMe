@@ -1,0 +1,12 @@
+{
+ "name" : "ICNTM",
+ "version" : "0.1.0",
+ "main" : "main.js",
+ "dependencies": {
+    "electron-prebuilt": "~0.30.6", // how do I get these bumped to latest?
+    "cron": "~1.1.0",
+    "electron-rebuild": "~1.0.2",
+    "electron-packager": "~5.2.1",
+    "serialport-electron": "^1.7.4-electron-0.30.6"
+  }
+}

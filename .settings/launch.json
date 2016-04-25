@@ -1,0 +1,20 @@
+{
+	"version": "0.1.0",
+	// List of configurations. Add new configurations or edit existing ones.
+	// ONLY "node" and "mono" are supported, change "type" to switch.
+	"configurations": [
+		{ 
+            "name": "Launch Electron App",
+            "type": "node",
+            "program": "app/main.js", // important
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": ".",
+            // next line is very important
+            "runtimeExecutable": "node_modules/electron-prebuilt/dist/electron.exe",
+            "runtimeArguments": [],
+            "env": { }, 
+            "sourceMaps": false
+        }
+	]
+}
